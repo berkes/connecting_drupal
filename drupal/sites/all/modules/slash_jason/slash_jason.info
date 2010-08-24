@@ -1,0 +1,6 @@
+; $Id$'
+
+name = Slash Jason
+description = Presents the fronpage, /node (slashnode) as json.
+core = 6.x
+[dependencies_chunk]
