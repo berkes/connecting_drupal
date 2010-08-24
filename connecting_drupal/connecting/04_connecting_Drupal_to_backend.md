@@ -25,7 +25,7 @@
 
 !SLIDE center
 # And this is how it works, kinda #
-![Graph callstack](./todo.png)
+![Graph callstack](./callback_route.jpg)
 
 !SLIDE
 # Demo #
