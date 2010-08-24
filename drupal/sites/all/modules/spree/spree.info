@@ -1,6 +1,0 @@
-; $Id$'
-
-name = Spreecommerce integration
-description = Integrates the popular Open Source ecommerce environment Spree over REST into your site.
-core = 6.x
-[dependencies_chunk]
