@@ -1,6 +1,6 @@
 # About
 Presentation, references and demonstration code for Drupalcon Copenhagen 2010 
-[]"Connecting Drupal" session](http://cph2010.drupal.org/sessions/connect-drupal)
+["Connecting Drupal" session](http://cph2010.drupal.org/sessions/connect-drupal)
 
 « Ever came across a Drupal-project, where data was not simply inserted into Drupal forms and printed as HTML-pages? Where you wanted to:
 
@@ -23,3 +23,7 @@ Bèr "berkes" Kessels, ber curlything webschuur dot com
 
 # TODOs
 Many. Probably. But maybe not. 
+
+# Licence 
+GPL v 2, unless resources dicate otherwise and noted at the specific place: 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html

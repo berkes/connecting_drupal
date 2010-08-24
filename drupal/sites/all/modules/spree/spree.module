@@ -1,0 +1,69 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ * Integrates the popular Open Source ecommerce environment Spree over REST into your site.
+ * @author Bèr Kessels <ber@webschuur.com>
+ * @link http://webschuur.com
+ * @package spree
+ */
+
+
+/**
+ * Renders the shop index
+ *
+ * @return
+ *   HTML for the shop-index
+ */
+function _spree_inventory_units() {
+  $html = '';
+  
+  
+  
+  return $html;
+}
+
+/**
+ * Fetches the REST-item, does a GET only 
+ *
+ * @param $controller
+ *   the $controller to fetch: one of inventory_units, orders, line_items, shipments
+ * @param $id
+ *   optional $identifier, to fetch a single resource.
+ *
+ * @return
+ *   SimpleXML object for the resource
+ */
+function spree_inventory_units() {
+  require(drupal_get_path('module', 'spree') .'/activeresource-php/active_resource.php');
+  /** 
+   * example: {"inventory_unit":  {"created_at":"2010-08-06T11:18:51-04:00","shipment_id":367952066,"updated_at":"2010-08-06T11:18:51-04:00","order_id":596761353,"lock_version":0,"id":341,"return_authorization_id":null,"variant_id":215054540,"state":"sold"}}
+   */
+  class InventoryUnit extends ActiveResource {
+    var $site = RESOURCE_URI;
+  }
+
+  $inventory_units = InventoryUnit::find('all');
+
+  if (empty($inventory_units)) {
+    return drupal_not_found();
+  }
+
+  foreach ($inventory_units as $unit) {
+    $row[] = $unit->shipment_id;
+    $row[] = $unit->order_id;
+    $row[] = $unit->created_at;
+    
+    $rows[] = $row;
+  }
+  
+  $header = array(
+    'shipment ID',
+    'order ID',
+    'created at',
+  );
+  
+  return theme('table', $header, $rows);
+}
+

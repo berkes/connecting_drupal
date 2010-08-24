@@ -1,0 +1,8 @@
+{ "name": "Connecting Drupal", "sections": [ 
+    {"section":"intro"},
+    {"section":"outline"},
+    {"section":"connecting"},
+    {"section":"pitfalls"},
+    {"section":"discuss"},
+    {"section":"melencolia_I"}
+    ]}
