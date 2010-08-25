@@ -1,14 +1,16 @@
 !SLIDE bullets incremental
 # Concepts #
 
-* Drupal &larr;_Pulls from_&larr; External [*]
-* Drupal &rarr;_Pushes into_&rarr; External [**]
-* External &larr;_Pulls from_&larr; Drupal [*]
-* External &larr;_Pushes into_&larr; External [**]
+* Drupal ←_Pulls from_← External [*]
+* Drupal →_Pushes into_→ External [**]
+* External ←_Pulls from_← Drupal [*]
+* External →_Pushes into_→ External [**]
+* Drupal _Uses service at_ Remote [*]
+* Remote _Uses service at_ Drupal [*]
 
 ---
 [*] Dive into
-[**] Skimmed the surface
+[**] Skim the surface
 
 !SLIDE bullets incremental
 # Kinds of data #
@@ -20,7 +22,7 @@
 
 ---
 [*] Dive into
-[**] Skimmed the surface
+[**] Skim the surface
 
 !SLIDE bullets incremental
 # Kinds of Services #

@@ -5,13 +5,14 @@
 #Melencolia# 
 * A (really) simple mapper.
 * A (really) simple reducer.
-* Not to be confused with Map/Reduce
+* Not to be confused with Map/Reduce.
+* A way to keep business logic out of the template.
 
 !SLIDE bullets incremental
 #Melencolia# 
-* Each field can be included
-* Each field can be processed _(Busyness Logic)_
-* Each field can be combined
+* Each field can be included.
+* Each field can be processed _(Busyness Logic)_.
+* Each field can be combined.
 
 !SLIDE code small
 # Example #

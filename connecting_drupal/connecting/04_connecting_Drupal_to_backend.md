@@ -1,6 +1,6 @@
 !SLIDE bullets incremental
 # Connecting Drupal to a Service #
-## Drupal &larr;_Pulls from_&larr; External ##
+## Drupal _Pulls from_ External ##
 * There is a module that (almost) does that.
 * FeedAPI. 
 * BatchAPI.
@@ -16,8 +16,8 @@
 # Demo #
 * Fetch a shop from Etsy.
 * Just display it.
-* Oh, no. Actually, only show items whose price >$14,00 [Not included]
-* And, could you add an advertisement every fourth item? [Not included]
+* Oh, no. Actually, only show items whose price >$14,00 (Not included)
+* And, could you add an advertisement every fourth item? (Not included)
 
 !SLIDE center
 # And it should look like this #

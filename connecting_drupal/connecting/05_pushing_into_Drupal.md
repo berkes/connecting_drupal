@@ -1,9 +1,9 @@
 !SLIDE bullets incremental
-# Connecting your app to Drupal: Push#
-## External &larr;_Pushes into_&larr; Drupal ##
-* CRUD: Create, Read, Update, Delete
+# Connecting your app to Drupal #
+## External _Pushes into_ Drupal ##
+* _CRUD_: Create, Read, Update, Delete.
 * _GET_, aka Read, is covered in menu-router.
-* PUT and DELETE are not covered in Drupal other then _same as GET_
+* PUT and DELETE are not covered in Drupal other then _same as GET_.
 * POST is handled by FormAPI. We don't want forms. 
 
 !SLIDE bullets incremental
@@ -12,7 +12,7 @@
 * Validate: custom.
 * Forgery and Bot-protection: custom.
 * Data handling and processing: custom.
-* Sorry, bad luck with Drupal
+* Sorry, "bad luck" with Drupal.
 
 # Bad luck? # 
 * As in: it won't help you, as framework.
@@ -20,5 +20,6 @@
 
 !SLIDE bullets incremental
 # Alternative: Services #
-* offers POST handling. 
+* Offers POST handling.
+* In REST mode, handles DELETEs and PUTs.
 

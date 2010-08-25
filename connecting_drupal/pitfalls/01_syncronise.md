@@ -1,14 +1,14 @@
 !SLIDE bullets incremental
 # Common pitfalls #
-* Synchronisation
-* Synchronisation 
-* and Synchronisation
+* Synchronisation.
+* Synchronisation.
+* and Synchronisation.
 
 !SLIDE bullets incremental
 # Avoid Synchronisation # 
 * but Cache.
- * GETs can be `cache_set(); cache_get();`-ed.
- * POSTs, PUTs and DELETEs can be queued. Write your own spool-queue (Drupal has no general one).
+ * Results of GETs can be `cache_set(); cache_get();`-ed.
+ * POSTs, PUTs and DELETEs can be queued. Write your own spool-queue.
  
 !SLIDE bullets incremental
 # Other common pitfalls #
@@ -26,9 +26,9 @@
 
 !SLIDE bullets incremental
 # Pitfall: Nodes #
-* All content on a Drupal website is **stored** and treated as "nodes." 
-* A node is any **posting**, such as a page, poll, story, forum text, or blog entry.
-
+* From Drupal.org:
+ * All content on a Drupal website is **stored** and treated as "nodes." 
+ * A node is any **posting**, such as a page, poll, story, forum text, or blog entry.
 * Stored: Database (synchronisation)
 * Postings: Articles (is it an article)
 

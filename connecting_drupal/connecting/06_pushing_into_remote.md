@@ -4,5 +4,5 @@
 * Just run your own code:
  * `hook_form_alter()`, adds a _submit callback_, which pushes data into remote.
 * Be carefull with _actions_, often cannot handle errors from remote.
-* (_you must_ handle errors from remote, submit-callback is not atomic!)
+* _You must_ handle errors from remote, submit-callback is not atomic!.
 
