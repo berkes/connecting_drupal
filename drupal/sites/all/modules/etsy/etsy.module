@@ -62,9 +62,14 @@ function _etsy_listings_get() {
   $url = ETSY_API_URL .'shops/5304925/listings/active?includes=Images&api_key='. ETSY_API_KEY;
 
   $response = drupal_http_request($url);
-  if ($response->code < 400) {
+  
+  if (!$response) {
+    $shop->results = array();
+  }
+  elseif ($response->code < 400) {
     $shop = json_decode($response->data);
   }
+  
   
   return $shop;
 }
@@ -80,6 +85,11 @@ function _etsy_listings_get() {
 function _etsy_listings_render($shop) {
   $html = '';
   drupal_add_css(drupal_get_path('module', 'etsy') .'/css/etsy.css');
+  
+  if (count($shop->results) <= 0 ) {
+    drupal_set_message(t('Shop is empty :('));
+  }
+
   foreach ($shop->results as $salable) {
     $link = l($salable->title, $salable->url);
     $html .= "<div class=\"etsy-salable\"><h3>{$link}</h3>";
