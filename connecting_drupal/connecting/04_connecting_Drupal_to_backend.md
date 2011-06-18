@@ -4,6 +4,7 @@
 * There is a module that (almost) does that.
 * FeedAPI. 
 * BatchAPI.
+* SOAP Client module.
 * Menu-handler. 
 
 !SLIDE bullets incremental

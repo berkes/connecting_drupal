@@ -1,10 +1,3 @@
-!SLIDE bullets
-# From Dries' keynote #
-
-* people will connect to people.
-* sites will connect to sites.
-* data will connect to data.
-
 !SLIDE bullets incremental
 # This Presentation #
 

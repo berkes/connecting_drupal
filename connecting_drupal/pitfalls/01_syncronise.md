@@ -5,7 +5,7 @@
 * and Synchronisation.
 
 !SLIDE bullets incremental
-# Avoid Synchronisation # 
+# Avoid Synchronisation #
 * but Cache.
  * Results of GETs can be `cache_set(); cache_get();`-ed.
  * POSTs, PUTs and DELETEs can be queued. Write your own spool-queue.
