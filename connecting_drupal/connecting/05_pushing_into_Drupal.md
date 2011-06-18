@@ -2,7 +2,7 @@
 # Connecting your app to Drupal #
 ## External _Pushes into_ Drupal ##
 * _CRUD_: Create, Read, Update, Delete.
-* _GET_, aka Read, is covered in menu-router.
+* _GET_, aka Read, was covered in menu-router.
 * PUT and DELETE are not covered in Drupal other then _same as GET_.
 * POST is handled by FormAPI. We don't want forms. 
 
@@ -15,11 +15,12 @@
 * Sorry, "bad luck" with Drupal.
 
 # Bad luck? # 
-* As in: it won't help you, as framework.
+* As in: it won't help you.
 * But it won't (probably) annoy you either.
 
 !SLIDE bullets incremental
 # Alternative: Services #
 * Offers POST handling.
 * In REST mode, handles DELETEs and PUTs.
+* Allows writing Services resources.
 
