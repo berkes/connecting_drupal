@@ -1,2 +1,0 @@
-!SLIDE center
-![Early_life_of_Christ_in_the_Bowyer_Bible_print_1_of_21._annunciation_to_Mary](Early_life_of_Christ_in_the_Bowyer_Bible_print_1_of_21._annunciation_to_Mary._Durer.gif)
