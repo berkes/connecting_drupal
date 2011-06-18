@@ -6,4 +6,3 @@
 * Diving in: Connecting Drupal to remote information.
 * Common pitfalls.
 * Your case, Discussion, questions.
-* Introducting Melencolia I/Map+Filter (if time permits).
