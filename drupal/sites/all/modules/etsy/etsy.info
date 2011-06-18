@@ -1,6 +1,0 @@
-; $Id$'
-
-name = Etsy Frontend
-description = Shows listings from an Etsy store in your Drupalsite.
-core = 6.x
-[dependencies_chunk]
