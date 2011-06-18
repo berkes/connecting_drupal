@@ -14,7 +14,8 @@
 * Data handling and processing: custom.
 * Sorry, "bad luck" with Drupal.
 
-# Bad luck? # 
+!SLIDE bullets incremental
+# Bad luck? #
 * As in: it won't help you.
 * But it won't (probably) annoy you either.
 
