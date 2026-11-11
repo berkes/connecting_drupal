@@ -1,6 +1,0 @@
-; $Id$'
-
-name = Couch Geo page
-description = Simple couch geo HTML page example thing
-core = 6.x
-[dependencies_chunk]
